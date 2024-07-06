@@ -1,4 +1,3 @@
-
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
@@ -48,3 +47,4 @@ connect().then(() => {
 }).catch(error => {
     console.log("Invalid Database Connection");
 })
+
